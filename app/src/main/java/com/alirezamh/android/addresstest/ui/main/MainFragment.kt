@@ -5,6 +5,7 @@ import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.alirezamh.android.addresstest.R
@@ -16,7 +17,6 @@ import com.google.android.gms.maps.MapsInitializer
 import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.main_fragment.*
 import kotlinx.android.synthetic.main.main_fragment_bottom_sheet.*
@@ -47,7 +47,7 @@ class MainFragment: BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel.error.observe(viewLifecycleOwner, Observer {
-            if(isAdded && it.message != null) Snackbar.make(view, it.message, Snackbar.LENGTH_LONG).show()
+            if(isAdded && it.message != null) Toast.makeText(context, it.message, Toast.LENGTH_LONG).show()
         })
 
         viewModel.updatePlaces()
