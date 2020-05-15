@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/gray800</color>
+    <color name="colorAccent">@color/blue</color>
+
+    <color name="defaultText">@color/black</color>
+    <color name="pageTitle">@color/black</color>
+    <color name="listTitle">@color/black</color>
+    <color name="listDescription">@color/blueGray</color>
+    <color name="separator">@color/gray770</color>
+    <color name="bottomSheetTitle">@color/blueGray</color>
+    <color name="bottomSheetDescription">@color/blueGray</color>
+    <color name="bottomSheetIcon">@color/blueGray</color>
+    <color name="bottomSheetDragLine">@color/blueGray2</color>
+
+    <color name="tabTitle">@color/blueGray</color>
+    <color name="tabTitleSelected">@color/blue</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="blue">#4DAAB8</color>
+    <color name="blueGray">#889098</color>
+    <color name="blueGray2">#D9DDDE</color>
+
+    <color name="gray800">#CCCCCC</color>
+    <color name="gray770">#C4C4C4</color>
+</resources>

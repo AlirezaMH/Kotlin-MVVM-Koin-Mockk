@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Address Test</string>
+    <string name="google_maps_key">AIzaSyBUwaVkyc49qK0f-NCNMCwGQBd1RhC_iC8</string>
+    <string name="main_page_title">نزدیکترین‌ها برای تست اندروید</string>
+    <string name="all">همه</string>
+    <string name="highway">بزرگراه</string>
+    <string name="bus_stop">ایستگاه اتوبوس</string>
+    <string name="restaurant">رستوران</string>
+    <string name="cafe">کافه</string>
+    <string name="park">پارک</string>
+    <string name="shopping_mall">مرکز خرید</string>
+    <string name="mosque">مسجد</string>
+    <string name="pharmacy">داروسازی</string>
+    <string name="hospital">بیمارستان</string>
+    <string name="school">مدرسه</string>
+    <string name="gym">باشگاه</string>
+    <string name="bookstore">کتابفروشی</string>
+    <string name="flower_shop">گل فروشی</string>
+    <string name="library">کتابخانه</string>
+    <string name="hotel">هتل</string>
+    <string name="parking">پارکینگ</string>
+    <string name="plural_x">%s‌ها</string>
+    <string name="item">مورد</string>
+    <string name="x_item_founded">%d %s پیدا شد:</string>
+
+</resources>

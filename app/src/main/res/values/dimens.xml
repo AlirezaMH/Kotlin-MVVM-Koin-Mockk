@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="bottom_sheet_drag_line_width">24dp</dimen>
+    <dimen name="bottom_sheet_drag_line_height">4dp</dimen>
+    <dimen name="bottom_sheet_corner_radius">8dp</dimen>
+    <dimen name="default_screen_margin">16dp</dimen>
+    <dimen name="bottom_sheet_title_size">14sp</dimen>
+    <dimen name="bottom_sheet_desc_size">9sp</dimen>
+    <dimen name="actionbar_height">44dp</dimen>
+    <dimen name="actionbar_text_size">12sp</dimen>
+    <dimen name="tabbar_height">32dp</dimen>
+    <dimen name="lit_title_text_size">14sp</dimen>
+    <dimen name="lit_desc_text_size">12sp</dimen>
+    <dimen name="image_size">52px</dimen>
+    <dimen name="image_radius">30dp</dimen>
+</resources>
